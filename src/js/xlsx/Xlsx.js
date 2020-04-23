@@ -34,7 +34,6 @@ export default class Xlsx {
             'cellStyles': true,
             'sheetStubs': true
           })
-          console.log(workbook)
           if (callback) {
             callback(workbook)
           }
